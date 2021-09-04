@@ -1,0 +1,28 @@
+L298N
+https://www.instructables.com/L298N-MOTOR-DRIVER-MODULE/
+
+STM32F103C
+http://reblag.dk/stm32/
+
+Način uploadanja programa na STM
+ST-Link - https://www.google.com/search?q=St+Link&sxsrf=AOaemvIdq_XJP6IA2qS_-o-gTyQcm3vP6A:1630766193126&source=lnms&tbm=isch&sa=X&ved=2ahUKEwip8pu9xeXyAhUtgf0HHQ-PBuYQ_AUoAXoECAEQAw&biw=1536&bih=792#imgrc=rR_5HBvZzPCCKM
+
+Komunikacija između rp-a i stma se odvija preko USB-a sa linka
+https://www.google.com/search?q=usb+to+micro+usb&sxsrf=AOaemvK4hogwzmOpPBvXF8D6T-3Vw-0THQ:1630766237759&tbm=isch&source=iu&ictx=1&fir=yFuzxM78wpR29M%252CpvYdzOBZc3wpHM%252C_&vet=1&usg=AI4_-kSsCWskB6rXCCU5HJNE5JnhdDSFnw&sa=X&ved=2ahUKEwiFn8DSxeXyAhXV8rsIHSlYBewQ9QF6BAgdEAE&biw=1536&bih=792#imgrc=yFuzxM78wpR29M
+
+DC Motor 3v
+Za više info pitaj Franju
+
+-----------------------------------------
+Raspberry Pi Model 4B
+
+Operating System
+Raspbian GNU/Linux 10 (buster)
+
+Python version 3.7.3
+
+Treba nabavit mali zvučnik sa 3.5mm priključkom za povratne informacije programa(Kaže postotak koji pušta i ako nije prepoznao input)
+Koristi se mikrofon sa slušalica sa mogućnošću muteanja i unmuteanja radi dobrog prepoznavanja početka i kraja glasovne naredbe
+
+Postupak:
+Unmute - glasovna naredba - mute
